@@ -99,6 +99,7 @@ h3 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
   color: white;
+  text-align: center;
 }
 @media (min-width: 768px) {
   .banner {
