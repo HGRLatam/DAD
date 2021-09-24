@@ -6,11 +6,6 @@ html {
   font-size: 62.5%;
 
   scroll-snap-type: y mandatory;
-  background: linear-gradient(
-    179.92deg,
-    #35aac4 60.17%,
-    rgba(99, 150, 162, 0) 152.7%
-  );
 }
 /** titulos **/
 h1 {
@@ -93,10 +88,18 @@ h3 {
   padding: 2rem 0;
   margin: 0 2rem;
   gap: 2rem;
+  background: linear-gradient(
+    179.92deg,
+    #35aac4 60.17%,
+    rgba(99, 150, 162, 0) 152.7%
+  );
+  border-radius: 2rem;
 }
 .banner-p {
+  margin: 1rem;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   font-size: 2rem;
+  color: white;
 }
 @media (min-width: 768px) {
   .banner {
