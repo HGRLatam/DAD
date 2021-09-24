@@ -6,6 +6,11 @@ html {
   font-size: 62.5%;
 
   scroll-snap-type: y mandatory;
+  background: linear-gradient(
+    179.92deg,
+    #35aac4 60.17%,
+    rgba(99, 150, 162, 0) 152.7%
+  );
 }
 /** titulos **/
 h1 {
@@ -156,6 +161,7 @@ img {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 .servicios__item h4 {
+  font-size: 2rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
   padding: 0 1rem 0 1rem;
