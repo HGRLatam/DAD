@@ -11,9 +11,11 @@ html {
 }
 a {
   text-decoration: none;
-  t
 }
 
+.main {
+  margin: 0 5rem 0 5rem;
+}
 /*** MENU Principal ****/
 .header {
   display: flex;
@@ -42,7 +44,7 @@ a {
   flex-direction: column;
 
   align-items: flex-start;
-  margin: 9rem 2rem 0 2rem;
+  margin: 9rem 2rem 6rem 2rem;
 }
 
 .banner--span {
@@ -66,64 +68,90 @@ a {
   background-color: #838ef0;
   padding: 0.8rem;
   border-radius: 0.3rem;
+  margin: 2rem 0 2rem 0;
 }
-
+.banner--boton:hover {
+  background-color: black;
+  padding: 0.8rem;
+}
 /*** Seccion **/
 .seccion {
   display: flex;
-  justify-content: space-around;
+
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .seccion--sobremi {
-  align-items: center;
-  margin-top: 6rem;
   padding-bottom: 0.5rem;
 }
-
+.mifoto {
+  width: 30%;
+  height: 30%;
+}
 .seccion--tec {
   display: flex;
 }
 
 .seccion2 {
   display: flex;
-  align-items: center;
   padding-bottom: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
-.seccion-experiencia {
-  margin: 4rem;
-}
+
 .seccion3 {
-  margin: 4rem;
-  text-align: center;
-  
 }
+
 .seccion-articles {
   display: flex;
-  justify-content: space-around;
-  gap: 1rem;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
 .seccion-items {
-  padding: 5rem;
+  padding: 6rem 5rem;
 
   box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
     rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
     rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
   border-radius: 0.5rem;
 }
+.boton {
+  display: block;
+  width: 10rem;
+  text-align: center;
+  color: white;
+  background-color: #838ef0;
+  padding: 0.8rem;
+  border-radius: 0.3rem;
 
-.seccion--proyectos {
-  
-  border-radius: 0.5rem;
-  padding: .5rem;
- color: white;
-  background-color: indigo;
+  margin: 2rem auto 0 auto;
 }
-.seccion4 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.boton:hover {
+  background-color: black;
+  padding: 0.8rem;
 }
 .seccion--contacto {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  margin-bottom: 3rem;
   text-align: center;
-  
+}
+
+/*** FOOTER ***/
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  height: 10rem;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer--items {
 }
