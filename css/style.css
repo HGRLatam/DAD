@@ -80,7 +80,6 @@ a {
 
   justify-content: space-between;
   align-items: center;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 .seccion--sobremi {
   padding-bottom: 0.5rem;
@@ -96,7 +95,6 @@ a {
 .seccion2 {
   display: flex;
   padding-bottom: 0.5rem;
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
 }
 
 .seccion3 {
