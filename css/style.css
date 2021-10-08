@@ -194,6 +194,12 @@ span {
   color: white;
   margin-left: 0.5rem;
 }
+.navbar-footer li {
+  list-style: none;
+}
+.navbar-footer li a {
+  color: white;
+}
 @media (max-width: 460px) {
   .footer {
     flex-direction: column;
