@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Diseño&ArteDigital</title>
@@ -18,17 +22,18 @@
       <!-- <span class="navbar-toggle-icon"></span> -->
       <nav class="navbar">
         <ul class="navbar-ul">
-          <li><a href="#">Sobre Mi</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Contacto</a></li>
+          <li><a href="#sobremi">Sobre Mi</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
           <li><a href="#">Tienda</a></li>
         </ul>
       </nav>
     </header>
 
     <div class="banner--seccion">
-      <span class="banner--span">Hola buenas, soy</span>
+      <p class="banner--span">Hola buenas, soy</p>
       <h1 class="banner--h1">Pedro Aguilar Barbaran</h1>
       <h2 class="banner--h2">Construyo cosas para internet</h2>
       <p class="banner--p">
@@ -39,7 +44,7 @@
     </div>
     <main class="main">
       <section class="seccion">
-        <div class="seccion--sobremi">
+        <div id="sobremi" class="seccion--sobremi">
           <h2>01.Sobre mi</h2>
           <p>!Hola¡ Soy Pedro Técnico informático y vivo en Perú</p>
           <p>
@@ -62,19 +67,58 @@
         </div>
         <img src="img/mifoto.jpg" alt="mi foto" class="mifoto" />
       </section>
-      <section class="seccion2">
-        <div>
-          <h2>02. Experiencia</h2>
-          <p>Diseño de pagina web Diseño&ArteDigital</p>
-          <span>Agosto - Diciembre 2021</span>
-          <ul>
-            <li>Diseño de pagina web Frontend</li>
-            <li>Maquetado de pagina web</li>
-          </ul>
+      <section>
+        <h2>02. Experiencia</h2>
+        <div class="seccion2">
+          <div>
+            <h3>Diseño de pagina dad</h3>
+            <p>Diseño de pagina web Diseño&ArteDigital</p>
+            <span>Agosto - Diciembre 2021</span>
+            <ul>
+              <li>Diseño de pagina web Frontend</li>
+              <li>Maquetado de pagina web</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Diseño de Prototype en Figma</h3>
+            <p>Diseño de pagina web Diseño&ArteDigital</p>
+            <span>Agosto - Diciembre 2021</span>
+            <ul>
+              <li>Diseño de pagina web Frontend</li>
+              <li>Maquetado de pagina web</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Diseño de Prototype en Figma</h3>
+            <p>Diseño de pagina web Diseño&ArteDigital</p>
+            <span>Agosto - Diciembre 2021</span>
+            <ul>
+              <li>Diseño de pagina web Frontend</li>
+              <li>Maquetado de pagina web</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Diseño de Prototype en Figma</h3>
+            <p>Diseño de pagina web Diseño&ArteDigital</p>
+            <span>Agosto - Diciembre 2021</span>
+            <ul>
+              <li>Diseño de pagina web Frontend</li>
+              <li>Maquetado de pagina web</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Diseño de Prototype en Figma</h3>
+            <p>Diseño de pagina web Diseño&ArteDigital</p>
+            <span>Agosto - Diciembre 2021</span>
+            <ul>
+              <li>Diseño de pagina web Frontend</li>
+              <li>Maquetado de pagina web</li>
+            </ul>
+          </div>
         </div>
       </section>
       <section class="seccion3">
-        <h2>03. Proyectos</h2>
+        <h2 id="proyectos">03. Proyectos</h2>
         <div class="seccion-articles">
           <div class="seccion-items">
             <h2>Primer proyecto</h2>
@@ -104,7 +148,7 @@
         <a class="boton" href="#">mas proyectos </a>
       </section>
       <section class="seccion4">
-        <h2>04. Contacto</h2>
+        <h2 id="contacto">04. Contacto</h2>
         <div class="seccion--contacto">
           <div>
             <h3>¿Por qué no charlamos?</h3>
@@ -119,32 +163,34 @@
         </div>
       </section>
     </main>
-    <footer class="footer">
-      <div class="footer--items">
-        <p>Soy Técnico informático me dedico al desarrollo web</p>
-        <p>
-          ,aplicaciones web de cualquier tipo asi como la creacion de
-          tecnologias
-        </p>
-        <p>2021 Diseñado por Pedro Aguilar</p>
-      </div>
+    <footer class="contenedorfooter">
+      <div class="footer">
+        <div class="footer--items">
+          <p>Soy Técnico informático me dedico al desarrollo web</p>
+          <p>
+            ,aplicaciones web de cualquier tipo asi como la creacion de
+            tecnologias
+          </p>
+          <p>2021 Diseñado por Pedro Aguilar</p>
+        </div>
 
-      <div class="footer--items">
-        <ul>
-          <li><a href="">facebook</a></li>
-          <li><a href="">twitter</a></li>
-          <li><a href="">instagram</a></li>
-          <li><a href="">github</a></li>
-        </ul>
-      </div>
-      <div>
-        <ul>
-          <li><a href="#">Sobre Mi</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Proyectos</a></li>
-          <li><a href="#">Contacto</a></li>
-          <li><a href="#">Tienda</a></li>
-        </ul>
+        <div class="footer--items">
+          <ul>
+            <li><a href="">facebook</a></li>
+            <li><a href="">twitter</a></li>
+            <li><a href="">instagram</a></li>
+            <li><a href="">github</a></li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#">Sobre Mi</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Proyectos</a></li>
+            <li><a href="#">Contacto</a></li>
+            <li><a href="#">Tienda</a></li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
