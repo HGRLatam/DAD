@@ -59,9 +59,9 @@ li {
 .banner--seccion {
   display: flex;
   flex-direction: column;
-
   align-items: flex-start;
-  margin: 9rem 2rem 6rem 2rem;
+
+  margin: 0 0rem 6rem 2rem;
 }
 
 .banner--span {
@@ -73,16 +73,15 @@ li {
 }
 .banner--h2 {
   color: #838ef0;
-  font-size: 5rem;
+  font-size: 4rem;
 }
-@media (min-width: 360px) {
+@media (min-width: 760px) {
   .banner--seccion {
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 9rem 0rem 6rem 2rem;
   }
   .banner--h2 {
     color: #838ef0;
-    font-size: 4rem;
+    font-size: 5rem;
   }
 }
 .banner--p {
