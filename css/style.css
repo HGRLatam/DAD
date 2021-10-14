@@ -36,7 +36,6 @@ li {
 .navegacion-principal {
   display: flex;
   flex-direction: column;
-
   align-items: center;
 }
 .navegacion-principal a {
@@ -110,8 +109,6 @@ li {
   flex-wrap: wrap;
 }
 .mifoto {
-  /* width: 30%;
-  height: 30%; */
   max-width: 100%;
 }
 .seccion--tec {
