@@ -20,7 +20,7 @@ a {
 span {
 	padding: 0.1rem;
 	border-radius: 0.2rem;
-	background-color: #838ef0;
+	
 }
 li {
 	list-style: none;
@@ -76,12 +76,10 @@ li {
 	margin: 0;
 }
 .banner--h2 {
-	color: #838ef0;
+	color: #31344d;
 	font-size: 4rem;
 }
-.banner--h2:hover {
-	filter: blur(5rem);
-}
+
 @media (min-width: 760px) {
 	.banner--seccion {
 		margin: 5rem 0rem 6rem 2rem;
@@ -89,14 +87,11 @@ li {
 		background-position-x: right;
 	}
 	.banner--h2 {
-		color: #838ef0;
+		color: #31344d;
 		font-size: 5rem;
 		filter: none;
 	}
-	.banner--h2:hover {
-		filter: none;
-	}
-}
+	
 .banner--p {
 	font-size: 1rem;
 }
