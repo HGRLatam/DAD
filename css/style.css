@@ -93,8 +93,9 @@ li {
 }
 .banner--p {
 	color: var(--secundario);
-	font-size: 1.5rem;
+	font-size: 1rem;
 	flex-wrap: wrap;
+	margin: 0;
 }
 .banner--boton {
 	color: lemonchiffon;
