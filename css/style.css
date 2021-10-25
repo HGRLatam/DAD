@@ -121,7 +121,10 @@ li {
 }
 .mifoto {
 	max-width: 100%;
+	animation: tada; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 5s;
 }
+
 .seccion--tec {
 	display: flex;
 }
@@ -146,6 +149,12 @@ li {
 	padding: 6rem 5rem;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 	border-radius: 0.5rem;
+	/* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+}
+.seccion-items:hover {
+	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	animation: swing; /* referring directly to the animation's @keyframe declaration */
+	animation-duration: 2s; /* don't forget to set a duration! */
 }
 
 @media (max-width: 460px) {
