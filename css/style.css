@@ -83,7 +83,7 @@ li {
 @media (min-width: 760px) {
 	.banner--seccion {
 		margin: 5rem 0rem 6rem 2rem;
-		background-size: 35rem;
+		background-size: 30rem;
 		background-position-x: right;
 	}
 	.banner--h2 {
