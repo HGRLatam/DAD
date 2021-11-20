@@ -4,7 +4,7 @@ const typed = new Typed('.typed', {
 	strings: [
 		'<i class="web">Creamos Páginas Web</i>',
 		'<i class="web">Sistemas Web</i>',
-		'<i class="web">Sistema de Facturación</i>',
+		'<i class="web">Instalación de Camaras de VideoVigilancia</i>',
 		'<i class="web">Miramos el Futuro</i>'
 	],
 
