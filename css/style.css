@@ -224,8 +224,6 @@ header .icons #menu-bars{
 }
 
 .seccion-items {
-	
-	justify-content: center;
 	padding: 2rem 2rem 4rem 2rem;
 	box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 	border-radius: 0.5rem;
@@ -244,7 +242,6 @@ header .icons #menu-bars{
 	}
 	.seccion-items{
 		width: 100%;
-		
 	}
 	
 }
