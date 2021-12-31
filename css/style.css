@@ -218,12 +218,12 @@ header .icons #menu-bars{
 }
 .seccion2 h3{
 	border-radius: 0 1rem 1rem 0;
-	background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
+	
 	padding: 0.5rem;
 	
 }
 .seccion2 h3:hover{
-	color: white;
+	color: var(--primario);
 }
 .seccion2 p{
 	text-transform: uppercase;
