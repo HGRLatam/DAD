@@ -198,7 +198,7 @@ header .icons #menu-bars{
 	flex-wrap: wrap;
 }
 .mifoto {
-	max-width: 100%;
+	max-width: 20%;
 	animation: tada; /* referring directly to the animation's @keyframe declaration */
 	animation-duration: 5s;
 }
